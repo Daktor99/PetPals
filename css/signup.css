@@ -52,3 +52,39 @@
     color: #030735;
     z-index: 1000;
 }
+
+.yellow-dog {
+    position: absolute;
+    width: 53.3px;
+    height: 138px;
+    left: 34px;
+    top: 135px;
+    z-index: 1000;
+}
+
+.weenie-dog {
+    position: absolute;
+    width: 54.74px;
+    height: 87px;
+    left: 113px;
+    top: 189px;
+    z-index: 1000;
+}
+
+.terrier {
+    position: absolute;
+    width: 57.26px;
+    height: 91px;
+    left: 170px;
+    top: 173px;
+    z-index: 1000;
+}
+
+.logo {
+    position: absolute;
+    width: 45px;
+    height: 40px;
+    left: 318px;
+    top: 306px;
+    z-index: 1000;
+}
