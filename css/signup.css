@@ -465,3 +465,172 @@
     top: 27.5%;
     bottom: 42.5%;
 }
+
+.wfh {
+    position: absolute;
+    left: 6.15%;
+    right: 6.15%;
+    top: 180px;
+    bottom: 74.17%;    
+}
+
+.question {
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #030735;
+}
+
+.wfh-yes {
+    position: absolute;
+    width: 80px;
+    height: 48px;
+    left: 24px;
+    top: 226px;
+    background: #F6F5F8;
+    border-radius: 12px;
+}
+
+.wfh-no {
+    position: absolute;
+    width: 80px;
+    height: 48px;
+    left: 116px;
+    top: 226px; 
+    background: linear-gradient(180deg, #F6D166 0%, #EEC755 100%);
+    box-shadow: 0px 4px 10px 2px rgba(246, 209, 102, 0.1);
+    border-radius: 12px;
+}
+
+.box-answer {
+    position: relative;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #030735;
+}
+
+.busy {
+    position: absolute;
+    left: 6.15%;
+    right: 6.15%;
+    top: 32.31%;
+    bottom: 62.11%;
+}
+
+.busy-answer {
+    position: absolute;
+    left: 6.15%;
+    right: 91.28%;
+    top: 36.83%;
+    bottom: 58.59%;
+}
+
+.answer {
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    color: #030735;
+}
+
+.busy-line {
+    position: absolute;
+    left: 6.15%;
+    right: 6.15%;
+    top: 41.82%;
+    bottom: 58.18%;
+    border: 1px solid #908E94;
+}
+
+.first-chevron-down {
+    position: absolute;
+    width: 16px;
+    height: 15.86px;
+    left: 350px;
+    top: 330.7px;
+}
+
+.second-chevron-down {
+    position: absolute;
+    width: 16px;
+    height: 15.86px;
+    left: 350px;
+    top: 409.7px;
+}
+
+.other-dogs {
+    position: absolute;
+    left: 6.15%;
+    right: 6.15%;
+    top: 42.8%;
+    bottom: 52.75%;    
+}
+
+.other-dogs-ans {
+    position: absolute;
+    left: 6.15%;
+    right: 71.03%;
+    top: 46.5%;
+    bottom: 49.23%;
+}
+
+.other-dogs-line {
+    position: absolute;
+    left: 6.15%;
+    right: 6.15%;
+    top: 51.18%;
+    bottom: 48.82%;
+    border: 1px solid #908E94;
+}
+
+.location-line {
+    position: absolute;
+    left: 6.15%;
+    right: 6.15%;
+    top: 511px;
+    bottom: 48.82%;
+    border: 1px solid #908E94;
+}
+
+.location-answer {
+    position: absolute;
+    left: 6.15%;
+    right: 16.67%;
+    top: 57.58%;
+    bottom: 39.84%;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: #030735;
+}
+
+.location-question {
+    position: absolute;
+    left: 6.15%;
+    right: 6.15%;
+    top: 54.03%;
+    bottom: 43.36%;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #030735;
+}
+
+.map {
+    position: absolute;
+    width: 342px;
+    height: 187px;
+    left: 24px;
+    top: 523px;
+}
