@@ -1,0 +1,70 @@
+.screen {
+    position: relative;
+    width: 390px;
+    height: 845px;
+    /* border: 2px solid black; */
+    outline: 3px solid black;
+    border-radius: 10px;
+
+    background: #F5F5F5;
+}
+
+.topNotch {
+    position: absolute;
+    width: 390px;
+    height: 45px;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+
+    /* Background */
+    background: #F5F5F5;
+}
+
+.main {
+    position: absolute;
+    width: 390px;
+    height: 710px;
+    left: 0px;
+    top: 45px;
+}
+
+.navBar {
+    position: absolute;
+    width: 390px;
+    height: 60px;
+    left: 0px;
+    top: 775px;
+
+    display:flex;
+
+    background: #FFFFFF;
+}
+
+.navBarElement {
+    flex: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottomNotch {
+    position: absolute;
+    width: 390px;
+    height: 10px;
+    left: 0px;
+    top: 835px;
+
+    display:flex;
+    justify-content:center;
+    align-items: center;
+
+    border-radius: 25px;
+
+    background: #FFFFFF;
+}
+
+#bottomNotch {
+    width:135px;
+    height:5px;
+}
