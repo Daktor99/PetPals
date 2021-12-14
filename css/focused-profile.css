@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Manrope:wght@300&display=swap');
+
+.main {
+    overflow-y: auto; 
+    height: 730px !important;
+}
+
+#headliner {    
+    position: relative;
+    width: 390px;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+
+    background: #F5F5F5;
+}
+
+#headliner_top {
+    position: relative;
+    height: 60%;
+    width: 94%;
+    margin-left: 3%;
+    margin-right: 3%;
+
+}
+
+#profile_name {
+    position: absolute;
+    height: 100%;
+    width: 70%;
+    float: left;
+    margin: 0;
+
+    font-family: 'DM Serif Display', serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+#heart_icon {
+    height: 100%;
+    float: right;
+}
+
+#message_icon {
+    height: 100%;
+    float: right;
+    bottom: 0;
+}
+
+#headliner_bottom {
+    position: relative;
+    height: 40%;
+    width: 94%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+#playdates_count {
+    position: absolute;
+    bottom: 17px;
+    left: 30px;
+
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #73A9E8
+}
+
+#profile_image {
+    position: relative;
+    width: 390px;
+    height: 370px;
+
+    background: #F5F5F5;
+}
+
+.single_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* overflow: hidden; */
+}
+
+#quick_info {
+    position: relative;
+    width: 94%;
+    height: 100px;
+    margin-left: 3%;
+    margin-right: 3%;
+    border-radius: 10px;
+}
+
+#quick_info_img {
+    position: relative;
+    right: 10px;
+    height: 102.5px;
+}
+
+#action_section {
+    position: relative;
+    width: 94%;
+    height: 270px;
+    left: 0px;
+    top: 0px;
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-left: 3%;
+
+
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+#action_title {
+    position: relative;
+    left: 7%;
+    top: 7%;
+
+    font-family: DM Serif Display;
+    font-size: 26px;
+    font-style: normal;
+}
+
+#action_imgs {
+    position: relative;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    width: auto;
+    height: 60%;
+    top: 10%;
+
+    padding-left: 7%
+}
+
+#action_img {
+    display: inline-block;
+    height: 100%;
+}
+
+#tap_to_see_all {
+    position:relative;
+    top: 35px;
+    padding-left: 7%;
+}
+
+#fun_fact1 {
+
+    position: relative;
+    width: 100%;
+    /* height: 130px; */
+    margin-top: 3%;
+
+}
+
+#fun_fact2 {
+
+    position: relative;
+    width: 94%;
+    height: 160px;
+    margin-left: 3%;
+    margin-left: 3%;
+
+
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+#fun_fact2_top {
+    position: absolute;
+    height: 40%;
+    padding-left: 7%;
+    top: 30px;
+    
+    font-family: manrope;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+#fun_fact2_bottom {
+    position: absolute;
+    height: 60%;
+    padding-left: 7%;
+    top: 60px;
+
+    font-family: DM Serif Display;
+    font-size: 26px;
+}
+
+#video {
+    margin-top: 3%;
+}
+
+#big {
+    position: relative;
+    left: 10px;
+    float: left;
+    width: 370px;
+}
+
+#report {
+    position: relative;
+    top: 10px;
+    left: 130px;
+}
