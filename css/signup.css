@@ -57,7 +57,7 @@
     z-index: 1000;
 }
 
-.sign-up-text {
+.sign-up-title {
     position: absolute;
     width: 126px;
     height: 52px;
@@ -201,6 +201,7 @@
     font-size: 20px;
     line-height: 27px;
     color: #030735;
+    z-index: 1000;
 }
 
 .eye {
