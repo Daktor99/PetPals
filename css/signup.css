@@ -27,6 +27,16 @@
     background: #FFFFFF;
 }
 
+.pup-info-screen {
+    position: relative;
+    width: 405px;
+    height: 844px;
+    outline: 3px solid black;
+    border-radius: 10px;
+    background: #FFFFFF;
+    overflow-y: auto;
+}
+
 .sign-up-bottom {
     position: absolute;
     width: 390px;
@@ -34,7 +44,6 @@
     left: 0px;
     top: 827px;
     border-radius: 10px;
-    background: #FFFFFF;
     z-index: 1000;
 }
 
@@ -44,6 +53,7 @@
     height: 573px;
     left: 0px;
     top: 271px;
+    z-index: 1000;
 }
 
 .sign-up-text {
@@ -200,7 +210,7 @@
 }
 
 .button {
-    position: absolute;
+    position: fixed;
     width: 326px;
     height: 60px;
     left: 32px;
@@ -208,6 +218,7 @@
     background: linear-gradient(180deg, #73A9E8 0%, #549AEC 100%);
     box-shadow: 0px 4px 10px 2px rgba(147, 201, 250, 0.25);
     border-radius: 12px;
+    z-index: 1000px;
 }
 
 .sign-up-button {
@@ -222,6 +233,7 @@
     font-size: 20px;
     line-height: 27px;  
     color: #FFFFFF;
+    z-index: 1000;
 }
 
 .centered-logo {
@@ -632,4 +644,290 @@
     height: 187px;
     left: 24px;
     top: 523px;
+}
+
+.pup-name-q {
+    position: absolute;
+    width: 342px;
+    height: 21.8px;
+    left: 24px;
+    top: 196px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #030735;
+}
+
+.pup-name-a {
+    position: absolute;
+    width: 99px;
+    height: 22px;
+    left: 24px;
+    top: 226px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: #030735; 
+}
+
+.name-line {
+    position: absolute;
+    width: 342px;
+    height: 0px;
+    left: 24px;
+    top: 251px;
+    border: 1px solid #908E94;
+}
+
+.pup-gender-q {
+    position: absolute;
+    width: 342px;
+    height: 22px;
+    left: 24px;
+    top: 275px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #030735;
+}
+
+.pup-male {
+    position: absolute;
+    width: 86px;
+    height: 48px;
+    left: 24px;
+    top: 305px;
+    background: linear-gradient(180deg, #F6D166 0%, #EEC755 100%);
+    border-radius: 12px;    
+}
+
+.pup-female {
+    position: absolute;
+    width: 100px;
+    height: 48px;
+    left: 122px;
+    top: 305px;
+    background: #F6F5F8;
+    border-radius: 12px;
+}
+
+.pup-size-q {
+    position: absolute;
+    width: 342px;
+    height: 22px;
+    left: 24px;
+    top: 377px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #030735;
+}
+
+.small {
+    position: absolute;
+    width: 150px;
+    height: 48px;
+    left: 24px;
+    top: 407px;
+    background: #F6F5F8;
+    border-radius: 12px;
+}
+
+.medium {
+    position: absolute;
+    width: 180px;
+    height: 48px;
+    left: 186px;
+    top: 407px;
+    background: #F6F5F8;
+    border-radius: 12px;
+}
+
+.large{
+    position: absolute;
+    width: 156px;
+    height: 48px;
+    left: 24px;
+    top: 467px;
+    background: linear-gradient(180deg, #F6D166 0%, #EEC755 100%);
+    box-shadow: 0px 4px 10px 2px rgba(246, 209, 102, 0.1);
+    border-radius: 12px;
+}
+
+.potty-trained {
+    position: absolute;
+    width: 342px;
+    height: 22px;
+    left: 24px;
+    top: 539px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #030735;
+}
+
+.yes-selected {
+    position: absolute;
+    width: 80px;
+    height: 48px;
+    left: 24px;
+    top: 569px; 
+    background: linear-gradient(180deg, #F6D166 0%, #EEC755 100%);
+    border-radius: 12px
+}
+
+.no-unselected {
+    position: absolute;
+    width: 80px;
+    height: 48px;
+    left: 116px;
+    top: 569px;
+    background: #F6F5F8;
+    border-radius: 12px;
+}
+
+.yes-spayed {
+    position: absolute;
+    width: 80px;
+    height: 48px;
+    left: 24px;
+    top: 671px;
+    background: linear-gradient(180deg, #F6D166 0%, #EEC755 100%);
+    border-radius: 12px;
+}
+
+.no-unspayed {
+    position: absolute;
+    width: 80px;
+    height: 48px;
+    left: 116px;
+    top: 671px;
+    background: #F6F5F8;
+    border-radius: 12px;
+}
+
+.spayed-neutered {
+    position: absolute;
+    width: 342px;
+    height: 22px;
+    left: 24px;
+    top: 641px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #030735;
+}
+
+.personality {
+    position: absolute;
+    width: 342px;
+    height: 44px;
+    left: 24px;
+    top: 743px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;  
+    color: #030735;
+}
+
+.loud {
+    position: absolute;
+    width: 80px;
+    height: 48px;
+    left: 24px;
+    top: 795px;
+    background: linear-gradient(180deg, #F6D166 0%, #EEC755 100%);
+    border-radius: 12px;
+}
+
+.shy {
+    position: absolute;
+    width: 72px;
+    height: 48px;
+    left: 116px;
+    top: 795px;
+    background: #F6F5F8;
+    border-radius: 12px;
+}
+
+.friendly {
+    position: absolute;
+    width: 109px;
+    height: 48px;
+    left: 200px;
+    top: 796px;
+    background: linear-gradient(180deg, #F6D166 0%, #EEC755 100%);
+    border-radius: 12px;
+}
+
+.laid-back {
+    position: absolute;
+    width: 124px;
+    height: 48px;
+    left: 24px;
+    top: 855px;
+    background: #F6F5F8;
+    border-radius: 12px;
+}
+
+.energetic {
+    position: absolute;
+    width: 118px;
+    height: 48px;
+    left: 160px;
+    top: 855px;
+    background: #F6F5F8;
+    border-radius: 12px;
+}
+
+.playful {
+    position: absolute;
+    width: 102px;
+    height: 48px;
+    left: 24px;
+    top: 915px;
+    background: linear-gradient(180deg, #F6D166 0%, #EEC755 100%);
+    border-radius: 12px;
+}
+
+.obedient {
+    position: absolute;
+    width: 114px;
+    height: 48px;
+    left: 138px;
+    top: 915px;
+    background: linear-gradient(180deg, #F6D166 0%, #EEC755 100%);
+    border-radius: 12px;
+}
+
+.bold {
+    position: absolute;
+    width: 81px;
+    height: 48px;
+    left: 264px;
+    top: 915px;
+    background: #F6F5F8;
+    border-radius: 12px;
+}
+
+.spacer {
+    position: absolute;
+    width: 10px;
+    height: 48px;
+    left: 264px;
+    top: 980px;
 }
