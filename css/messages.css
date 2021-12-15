@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Manrope:wght@300&display=swap');
+
+#messages_header {
+    position: relative;
+    width: 100%;
+    height: 50px;
+}
+
+#message_title {
+    padding-left: 6%;
+    
+    font-family: 'DM Serif Display', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+}
+
+#message_slot {
+    padding-top: 3%;
+    padding-left: 3%;
+}
+
+.slot {
+    margin-bottom: 10px;
+}
+
+#search {
+    position: relative;
+    float: right;
+    top: 3px;
+}
