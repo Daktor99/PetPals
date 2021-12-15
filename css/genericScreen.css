@@ -5,7 +5,7 @@
     /* border: 2px solid black; */
     outline: 3px solid black;
     border-radius: 10px;
-    background: #F5F5F5;
+    background: #FFFFFF;
 }
 
 .topNotch {
@@ -15,9 +15,6 @@
     left: 0px;
     top: 0px;
     border-radius: 10px;
-
-    /* Background */
-    background: #F5F5F5;
 }
 
 .main {
@@ -34,9 +31,7 @@
     height: 60px;
     left: 0px;
     top: 775px;
-
-    display:flex;
-
+    display: flex;
     background: #FFFFFF;
 }
 
@@ -52,15 +47,11 @@
     width: 390px;
     height: 10px;
     left: 0px;
-    top: 835px;
-
-    display:flex;
-    justify-content:center;
+    top: 830px;
+    display: flex;
+    justify-content: center;
     align-items: center;
-
     border-radius: 25px;
-
-    background: #FFFFFF;
 }
 
 #bottomNotch {

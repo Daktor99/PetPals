@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+.page-header {
+    position: absolute;
+    left: 30.26%;
+    right: 30.26%;
+    top: 6.4%;
+    bottom: 89.34%;
+    font-family: DM Serif Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 36px;
+    text-align: center;
+    color: #030735;
+}
+
+.back-button {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 28px;
+    top: 60px;
+}
+
+.tag-friend {
+    position: absolute;
+    width: 342px;
+    height: 16px;
+    left: 24px;
+    top: 116px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #606060;
+}
+
+.search {
+    position: absolute;
+    width: 342px;
+    height: 36px;
+    left: 24px;
+    top: 140px;
+}
+
+.friend-photo {
+    position: absolute;
+    width: 342px;
+    height: 342px;
+    left: 24px;
+    top: 192px;
+}
+
+.add-caption {
+    position: absolute;
+    width: 342px;
+    height: 16px;
+    left: 24px;
+    top: 562px; 
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #606060;
+}
+
+.box {
+    position: absolute;
+    width: 342px;
+    height: 116px;
+    left: 24px;
+    top: 586px;  
+    background: #FFFFFF; 
+    border: 0.5px solid #979797;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.caption {
+    position: absolute;
+    width: 310px;
+    height: 54px;
+    left: 40px;
+    top: 600px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.sign-up-button {
+    position: relative;
+    width: 75px;
+    height: 27px;
+    top: -3px;
+    width: 342px;
+    height: 27px;
+    text-align: center;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;  
+    color: #FFFFFF;
+    z-index: 1000;
+}
+
+.next-page {
+    position: absolute;
+    width: 342px;
+    height: 60px;
+    left: 24px;
+    top: 738px;
+    background: linear-gradient(180deg, #73A9E8 0%, #549AEC 100%);
+    box-shadow: 0px 4px 10px 2px rgba(147, 201, 250, 0.25);
+    border-radius: 12px;
+}
+
+.friend {
+    position: absolute;
+    width: 122px;
+    height: 18px;
+    left: 69px;
+    top: 149px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    color: #606060;
+}
