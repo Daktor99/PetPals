@@ -11,7 +11,7 @@
     width: 390px;
     height: 45px;
     left: 0px;
-    top: 0px;
+    top: 10px;
 }
 
 
@@ -47,14 +47,6 @@
     bottom: 0;
 }
 
-#headliner_bottom {
-    position: relative;
-    height: 40%;
-    width: 94%;
-    margin-left: 3%;
-    margin-right: 3%;
-}
-
 .pups{
   position: relative;
   width: 358px;
@@ -75,16 +67,13 @@
 }
 
 .right-arrow{
+  position: relative;
   height: 100%;
   float: right;
-  text-align: center;
-
+  top: 6px;
 }
 
-.right-arrow-pic{
 
-  vertical-align: middle;
-}
 
 .dotdotdot{
   height: 100%;
@@ -98,9 +87,10 @@
   white-space: nowrap;
   width: auto;
   height: 210px;
-  top: 40px;
+  top: 32px;
   padding-left: 16px;
   margin-bottom: 20px;
+  padding-bottom: 8px;
 }
 
 .horizontal-box{
