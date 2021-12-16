@@ -47,14 +47,6 @@
     bottom: 0;
 }
 
-#headliner_bottom {
-    position: relative;
-    height: 40%;
-    width: 94%;
-    margin-left: 3%;
-    margin-right: 3%;
-}
-
 .near-you{
   position: relative;
   width: 358px;
@@ -75,8 +67,10 @@
 }
 
 .right-arrow{
+  position: relative;
   height: 100%;
   float: right;
+  top: 6px;
 }
 
 
@@ -89,6 +83,7 @@
   height: 210px;
   top: 40px;
   padding-left: 16px;
+  padding-bottom: 8px;
 }
 
 .horizontal-box{
