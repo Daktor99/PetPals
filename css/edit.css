@@ -98,10 +98,10 @@
 }
 
 .photos_and_videos {
-    width: 100%;
+    width: 98%;
     height: 300px;
     margin-top: 25px;
-    /* padding-left: 2%; */
+    padding-left: 2%;
 }
 
 .photos_and_videos_title {
